@@ -2,7 +2,7 @@ import Editor from "./Editor";
 import React from "react";
 function App() {
   const [editorContent, setEditorContent] = React.useState(
-    "<p><strong>Hello World,</strong></p><p>This Is a Demo Use of The Editor</p><p></p><p>Try Your Self like<u> UnderLine</u></p><p>or <s>Strike</s></p><p><strong>Bold is Gold</strong></p><p><em>Italic Is Elite</em></p><p><em><mark>Or You Want To Highlight</mark></em></p><p>Did I told You About Justify</p><p style='text-align: right'>Left</p><p>right</p><p style='text-align: center'>or even center</p><p>try The Link &amp; visit <a target='_blank' rel='noopener noreferrer nofollow' class='link link' href='https://github.com/mahmoud-bebars'>My GitHub</a></p><p style='text-align: center'></p>"
+    "<p><strong>Hello World,</strong></p><p>This Is a Demo Use of The Editor</p><p></p><p>Try Your Self like<u> UnderLine</u></p><p>or <s>Strike</s></p><p><strong>Bold is Gold</strong></p><p><em>Italic Is Elite</em></p><p><em><mark>Or You Want To Highlight</mark></em></p><p>Did I told You About Justify</p><p style='text-align: right'>Left</p><p>right</p><p style='text-align: center'>or even center</p><p>try The Link &amp; visit <a target='_blank' rel='noopener noreferrer nofollow' class='link link' href='https://github.com/MayaHaynesPrincess48'>My GitHub</a></p><p style='text-align: center'></p>"
   );
   return (
     <div className=" w-full flex flex-col items-center justify-center gap-2">
@@ -24,7 +24,7 @@ function App() {
       )}
 
       <a
-        href="https://github.com/mahmoud-bebars/Tiptap_Editor_Component"
+        href="https://github.com/MayaHaynesPrincess48/tiptap-image"
         target="blank"
         className="text-sm text-gray-200 underline"
       >
